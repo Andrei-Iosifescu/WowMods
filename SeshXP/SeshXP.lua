@@ -1,5 +1,5 @@
 
-local sum=0
+ssum=0
 local AEventFrame= CreateFrame("Frame")
 AEventFrame:Registerevent("PLAYER_XP_UPDATE")
 AEventFrame.XpatStart=UnitXP("player")
@@ -9,7 +9,7 @@ AEventFrame:SetScript("OnEvent",function(self)
   self.XpatStart=xp
 end)
 local function XPTotal(msg)
-  print(sum)
+  sendChatMessage(tostring(sum),"SAY","Common")
   end
 SlashCmdList["XPTotals"] = XPTotals
    
