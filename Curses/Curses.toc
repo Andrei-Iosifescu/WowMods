@@ -1,0 +1,5 @@
+## Interface: 80205
+## Title: Curses
+## Notes: Nothing to be done.
+## Version: 4.4
+Curses.lua
